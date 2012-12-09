@@ -1,0 +1,8 @@
+{
+  "name": "mote",
+  "repo": "satchmorun/mote",
+  "description": "A fast mustache template engine for JavaScript",
+  "version": "0.2.0",
+  "main": "mote.js",
+  "scripts": ["mote.js"]
+}
