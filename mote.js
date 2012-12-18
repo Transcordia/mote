@@ -160,11 +160,11 @@ Parser.prototype.scanTags = function() {
 
   // Handle leading whitespace
   padding = this.re.whitespace.exec(otag);
-  padding = padding && padding[0];
+  padding = padding && padding.charAt(0);
 
   // Get the tag's type.
   type = this.scanner.scan(this.re.tagtype);
-  type = type && type[0];
+  type = type && type.charAt(0);
 
   // Skip whitespace.
   this.scanner.scan(this.re.whitespace);
